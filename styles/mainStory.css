@@ -1,0 +1,85 @@
+/* THM-Logo overwrites */
+.thm-square {
+    opacity: 1 !important;
+}
+#squares-container {
+    border-right: 2px solid var(--thm_grey);
+}
+
+#svg-container{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow-y:visible;
+}
+
+#svg-wrapper{
+    height: 100vh;
+    width: 100vw;
+    /*display: flex;*/
+    justify-content: center;
+    overflow: visible;
+}
+
+svg {
+    bottom: 0;
+    overflow: visible;
+}
+
+.spacer-normal {
+    height: 250vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* clouds overlay */
+#cloudsSvg {
+    z-index: 200;
+    visibility: hidden;
+    position: absolute;
+}
+
+/* stage 2 */
+#scrollArrow {
+    width: 50%;
+    height: 50%;
+    z-index: 50;
+    position: sticky;
+    bottom: 0;
+    left: 23%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20pt;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#scrollArrow i {
+    font-size: 50pt;
+}
+
+#scrollArrow * {
+    text-shadow: 1px 1px 3px black;
+}
+
+/* stage 3 */
+#headlines, #headlineMP, #headlineWM {
+    visibility: hidden;
+}
+
+.movingItem {
+    cursor: pointer;
+}
+
+.stage3-lettering-back {
+    fill: var(--thm_grey) !important;
+}
+
+.stage3-lettering-front {
+    fill: var(--thm_green) !important;
+}

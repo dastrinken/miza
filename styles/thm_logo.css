@@ -1,0 +1,68 @@
+#animControls {
+    position: absolute;
+}
+
+#logo-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#thm-logo {
+    top: 0;
+    left: 0;
+}
+
+/* squares */
+#squares-container {
+    position: relative;
+    float: left;
+    border-right: 2px solid var(--thm_grey);
+}
+
+.thm-row {
+    display: flex;
+}
+
+.thm-col {
+    display: flex;
+}
+
+.thm-square {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: var(--thm_green);
+    opacity: 0;
+}
+
+.thm-square:before {
+    content: "";
+    float: left;
+    padding-top: 100%;
+}
+
+.thm-square-empty {
+    position: relative;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* lettering */
+
+#letters-container {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: end;
+}
+
+#subheading-container, #subheading-container img {
+    display: block;
+    width: 100%;
+    float: left;
+}

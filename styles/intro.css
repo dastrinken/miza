@@ -1,0 +1,42 @@
+#introWrapper {
+    margin-bottom: 9rem;
+    cursor: pointer;
+}
+
+#hint {
+    cursor: pointer;
+}
+
+#thmlogo_animated {
+    width: 100%;
+    z-index: 100;
+}
+
+.media_item {
+    position: relative;
+    width: 6vw;
+}
+
+#sortItems {
+    gap: 2%;
+}
+
+#sortItems h1 {
+    font-size: 4vw !important;
+}
+
+@media only screen and (min-width: 745px){
+    #sortItems h1 {
+        font-size: 2vw !important;
+    }
+
+    #hint {
+        font-size: 1.25rem;
+    }
+}
+
+
+p.lead.position-absolute {
+    margin-top: 9rem;
+    font-size: .8rem;
+}
