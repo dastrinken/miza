@@ -1,6 +1,7 @@
-# MPM Projekt Team 1
-### Teammitglieder sind:
+# Medieninformatik zum Anfassen
+Ein Projekt von Studierenden des Bachelor Medieninformatik an der Technischen Hochschule Mittelhessen.
 
+### Teammitglieder sind:
 - Noël Grün
 - Julius-Frederik Wissemann
 - Samira Joulaei Vakili
