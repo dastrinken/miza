@@ -1,0 +1,19 @@
+File								|		Licence
+-------------------------------------------------------------------------------
+					ICONS (./resources/icons/...)
+-------------------------------------------------------------------------------
+chess-board-svgrepo-com.svg			|		CC0
+blackboard-svgrepo-com.svg			|		CC0
+car-svgrepo-com.svg					|		CC0
+film-svgrepo-com.svg				|		CC0
+film-roll-svgrepo-com.svg			|		CC0
+server-svgrepo-com.svg				|		CC0
+video-camera-film-svgrepo-com.svg	|		CC0
+--------------------------------------------------------------------------------
+					IMAGES (./resources/images/...)
+--------------------------------------------------------------------------------
+startRoom.svg 						|		Attribution: freepik.com (by "macrovector") 
+
+
+
+masquerade chars: <a href='https://de.freepik.com/vektoren/party'>Party Vektor erstellt von macrovector - de.freepik.com</a>
